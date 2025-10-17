@@ -35,7 +35,6 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
 - Chargement asynchrone des traductions (JSON).  
 - Modification dynamique du contenu textuel et des placeholders.  
 - Sauvegarde de la langue sélectionnée avec `localStorage`.  
-- Navigation responsive avec menu burger pour mobile.
 
 ## Personnalisation
 
