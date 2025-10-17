@@ -1,0 +1,27 @@
+{
+    "site-title": {
+        "fr": "Bienvenue sur notre site",
+        "en": "Welcome to our website",
+        "es": "Bienvenido a nuestro sitio web"
+    },
+    "header-title": {
+        "fr": "Bienvenue",
+        "en": "Welcome",
+        "es": "Bienvenido"
+    },
+    "welcome-message": {
+        "fr": "Ceci est un exemple simple de site multilingue.",
+        "en": "This is a simple example of a multilingual website.",
+        "es": "Este es un ejemplo simple de un sitio web multilingüe."
+    },
+    "input-placeholder": {
+        "fr": "Tapez ici...",
+        "en": "Type here...",
+        "es": "Escriba aquí..."
+    },
+    "footer-text": {
+        "fr": "Merci de visiter notre site.",
+        "en": "Thank you for visiting our website.",
+        "es": "Gracias por visitar nuestro sitio."
+    }
+}
