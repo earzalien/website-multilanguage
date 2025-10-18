@@ -19,7 +19,8 @@ It allows switching the content language using flag buttons and saves the chosen
 
 1. Clone the repository or download the files.  
 2. Add your translations to the `lang.json` file in the following format:
-{
+ ```
+ {
 "site-title": {
 "fr": "Bienvenue sur notre site",
 "en": "Welcome to our website",
@@ -31,7 +32,7 @@ It allows switching the content language using flag buttons and saves the chosen
 "es": "Inicio"
 }
 }
-
+ ```
 3. Update HTML elements with the `data-key` attribute corresponding to the keys in `lang.json`.  
 4. Load the page in a modern browser.  
 5. Click a flag to change the language; the selection will be saved.
@@ -93,7 +94,8 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
 
 1. Cloner le dépôt ou télécharger les fichiers.  
 2. Ajouter vos traductions dans le fichier `lang.json` au format suivant :  
-{
+ ```
+ {
 "site-title": {
 "fr": "Bienvenue sur notre site",
 "en": "Welcome to our website",
@@ -105,7 +107,7 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
 "es": "Inicio"
 }
 }
-
+ ```
 3. Mettre à jour les éléments HTML avec l’attribut `data-key` correspondant aux clés dans `lang.json`.  
 4. Charger la page dans un navigateur moderne.  
 5. Cliquer sur un drapeau pour changer la langue ; la sélection sera mémorisée.
