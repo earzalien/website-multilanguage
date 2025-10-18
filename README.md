@@ -1,3 +1,80 @@
+###### ###### ###### ###### ###
+###### ENGLISH VERSION ###  ###
+###### ###### ###### ###### ###
+
+# website-multilanguage
+
+This project provides simple multilingual management for static websites.  
+It allows switching the content language using flag buttons and saves the chosen language in the browser.
+
+## Repository Content
+
+- `index.html`: HTML page with `data-key` attributes for managing translated texts.  
+- `script.js`: JavaScript script to load and apply translations from the JSON file.  
+- `lang.json`: JSON file containing translations (to be created as needed).  
+- `css/`, `img/` folders for styles and images.
+
+## Usage
+
+1. Clone the repository or download the files.  
+2. Add your translations to the `lang.json` file in the following format:
+{
+"site-title": {
+"fr": "Bienvenue sur notre site",
+"en": "Welcome to our website",
+"es": "Bienvenido a nuestro sitio web"
+},
+"menu-accueil": {
+"fr": "Accueil",
+"en": "Home",
+"es": "Inicio"
+}
+}
+
+3. Update HTML elements with the `data-key` attribute corresponding to the keys in `lang.json`.  
+4. Load the page in a modern browser.  
+5. Click a flag to change the language; the selection will be saved.
+
+## Adding Other Languages
+
+- To add a language:
+- Add the language identifier (e.g., `de` for German, `it` for Italian...) to each key in the `lang.json` file, including the necessary translations.
+- Create a corresponding flag button in the `index.html` file with the appropriate `data-lang` attribute:
+ ```
+ <button data-lang="de">
+   <img src="img/flag-de.png" alt="Deutsch" />
+ </button>
+ ```
+- Place the new flag image file in the `img/` folder (e.g., `img/flag-de.png`).
+
+- Make sure the image filename, `data-lang` attribute, and language identifier in the JSON all match.
+
+## Adding Flag Image Files
+
+- Place the flag image in the `img/` folder:
+- Example: `img/flag-it.png` for Italy
+- Add an HTML button in `index.html` corresponding to the new language:
+<button data-lang="it"> <img src="img/flag-it.png" alt="Italiano" /> </button> ```
+- It is recommended to use images of similar size and format for a better appearance.
+
+# Features
+Asynchronous loading of translations from a JSON file.
+Dynamic updating of text content and placeholders.
+Saving the selected language with localStorage.
+Easy support for adding new languages and flag images.
+
+# Customization
+Add other languages in lang.json.
+Add as many flags as needed in the img/ folder and update the HTML.
+Modify the CSS style as needed.
+
+Integrate into any static HTML project.
+
+
+###### ###### ###### ###### ###
+###### VERSION FRANCAISE ######
+###### ###### ###### ###### ###
+
 # website-multilanguage
 
 Ce projet est une gestion multilingue simple pour sites web statiques.  
@@ -57,20 +134,17 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
 
 - Il est recommandé d’utiliser des images à taille et format similaires pour une meilleure apparence.
 
-#Fonctionnalités
+# Fonctionnalités
+
 Chargement asynchrone des traductions depuis un fichier JSON.
-
 Modification dynamique du contenu textuel et des placeholders.
-
 Sauvegarde de la langue sélectionnée avec localStorage.
-
 Prise en charge facile de l’ajout de nouvelles langues et images de drapeaux.
 
-#Personnalisation
+# Personnalisation
 
 Ajoutez d’autres langues dans lang.json.
 Ajoutez autant de drapeaux que nécessaire dans le dossier img/ et mettez à jour le HTML.
-
 Modifiez le style CSS selon vos besoins.
 
 Intégrez dans tout projet HTML statique.
