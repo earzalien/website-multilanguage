@@ -42,9 +42,7 @@ It allows switching the content language using flag buttons and saves the chosen
 - Add the language identifier (e.g., `de` for German, `it` for Italian...) to each key in the `lang.json` file, including the necessary translations.
 - Create a corresponding flag button in the `index.html` file with the appropriate `data-lang` attribute:
  ```
-&lt;button data-lang="de"&gt;
-  &lt;img src="img/flag-de.png" alt="Deutsch" /&gt;
-&lt;/button&gt;
+<button data-lang="de"><img src="img/flag-de.png" alt="Deutsch" /><button>
 
  ```
 - Place the new flag image file in the `img/` folder (e.g., `img/flag-de.png`).
@@ -118,7 +116,7 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
   - D’ajouter l’identifiant de langue (exemple : `de` pour allemand, `it` pour italien...) dans chaque clé du fichier `lang.json` avec les traductions nécessaires.
   - De créer un bouton drapeau correspondant dans le fichier `index.html` avec l’attribut `data-lang` adéquat :
   
- ``` &lt;button data-lang="de"&gt;  &lt;img src="img/flag-de.png" alt="Deutsch" /&gt; &lt;/button&gt; ```
+ ``` <button data-lang="de"><img src="img/flag-de.png" alt="Deutsch" /><button> ```
   
   - De placer le fichier image du nouveau drapeau dans le dossier `img/` (par exemple `img/flag-de.png`).
 
