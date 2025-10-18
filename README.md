@@ -1,6 +1,7 @@
-###### ###### ###### ###### ###
-###### ENGLISH VERSION ###  ###
-###### ###### ###### ###### ###
+## Demo 
+Try the online version here:  
+[https://earzalien.github.io/website-multilanguage/](https://earzalien.github.io/website-multilanguage/)
+
 
 # website-multilanguage
 
@@ -70,10 +71,12 @@ Modify the CSS style as needed.
 
 Integrate into any static HTML project.
 
+----------------------------------------------------------------------------------------------------------------
+## Démo
 
-###### ###### ###### ###### ###
-###### VERSION FRANCAISE ######
-###### ###### ###### ###### ###
+Essayez la version en ligne ici :
+[https://earzalien.github.io/website-multilanguage/](https://earzalien.github.io/website-multilanguage/)
+
 
 # website-multilanguage
 
