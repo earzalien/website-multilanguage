@@ -42,9 +42,10 @@ It allows switching the content language using flag buttons and saves the chosen
 - Add the language identifier (e.g., `de` for German, `it` for Italian...) to each key in the `lang.json` file, including the necessary translations.
 - Create a corresponding flag button in the `index.html` file with the appropriate `data-lang` attribute:
  ```
- <button data-lang="de">
-   <img src="img/flag-de.png" alt="Deutsch" />
- </button>
+&lt;button data-lang="de"&gt;
+  &lt;img src="img/flag-de.png" alt="Deutsch" /&gt;
+&lt;/button&gt;
+
  ```
 - Place the new flag image file in the `img/` folder (e.g., `img/flag-de.png`).
 
@@ -55,7 +56,7 @@ It allows switching the content language using flag buttons and saves the chosen
 - Place the flag image in the `img/` folder:
 - Example: `img/flag-it.png` for Italy
 - Add an HTML button in `index.html` corresponding to the new language:
-<button data-lang="it"> <img src="img/flag-it.png" alt="Italiano" /> </button> ```
+&lt;button data-lang="it"&gt; &lt;img src="img/flag-it.png" alt="Italiano" /&gt; &lt;/button&gt; ```
 - It is recommended to use images of similar size and format for a better appearance.
 
 # Features
@@ -116,12 +117,8 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
 - Pour ajouter une langue, il suffit :
   - D’ajouter l’identifiant de langue (exemple : `de` pour allemand, `it` pour italien...) dans chaque clé du fichier `lang.json` avec les traductions nécessaires.
   - De créer un bouton drapeau correspondant dans le fichier `index.html` avec l’attribut `data-lang` adéquat :
-    
-    <!-- code html à insérer -->
-    <button data-lang="de">
-      <img src="img/flag-de.png" alt="Deutsch" />
-    </button>
-   <!-- fin html -->
+  
+ ``` &lt;button data-lang="de"&gt;  &lt;img src="img/flag-de.png" alt="Deutsch" /&gt; &lt;/button&gt; ```
   
   - De placer le fichier image du nouveau drapeau dans le dossier `img/` (par exemple `img/flag-de.png`).
 
@@ -133,7 +130,8 @@ Il permet de changer la langue du contenu via des boutons drapeaux, et sauvegard
   - Exemple : `img/flag-it.png` pour l’Italie
 - Ajoutez un bouton HTML dans `index.html` correspondant à la nouvelle langue :  
 
-<button data-lang="it"> <img src="img/flag-it.png" alt="Italiano" /> </button>
+&lt;button data-lang="it"&gt; &lt;img src="img/flag-it.png" alt="Italiano" /&gt; &lt;/button&gt;
+
 
 - Il est recommandé d’utiliser des images à taille et format similaires pour une meilleure apparence.
 
